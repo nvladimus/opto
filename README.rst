@@ -6,8 +6,10 @@ tunable
 lenses <http://www.optotune.com/products/focus-tunable-lenses>`__ using
 the `Optotune Lens Driver
 4 <http://www.optotune.com/products/focus-tunable-lenses/lens-drivers>`__.
-Tested with an `Optotune
-EL-10-30 <http://www.optotune.com/products/focus-tunable-lenses/electrical-lens-el-10-30?task=view&id=18>`__.
+Tested with lenses:
+`Optotune
+EL-10-30 <http://www.optotune.com/products/focus-tunable-lenses/electrical-lens-el-10-30?task=view&id=18>`__,
+`EL-16-40-TC <https://www.optotune.com/products/focus-tunable-lenses/electrical-lens-el-16-40-tc>`__.
 
 Examples
 ~~~~~~~~

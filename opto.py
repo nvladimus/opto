@@ -169,7 +169,7 @@ class Opto(object):
             data = int(value * 4095/self._current_max)
             data = data.to_bytes(2, byteorder='big', signed=True)
             r = self._send_cmd(b'CwUA'+data)
-        self._current_upper = (int.from_bytes(r[3:5], byteorder='big') *
+        self._current_upper = (int.from_bytes(r[3:5], byteorder='big', signed=True) *
                                self._current_max/4095)
         return self._current_upper
 
@@ -192,7 +192,7 @@ class Opto(object):
             data = int(value*4095/self._current_max)
             data = data.to_bytes(2, byteorder='big', signed=True)
             r = self._send_cmd(b'CwLA'+data)
-        self._current_lower = (int.from_bytes(r[3:5], byteorder='big') *
+        self._current_lower = (int.from_bytes(r[3:5], byteorder='big', signed=True) *
                                self._current_max/4095)
         return self._current_lower
 
