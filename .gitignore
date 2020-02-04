@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 *.py[cod]
-./idea
+.idea/
 
 # Distribution / packaging
 .Python
